@@ -14,7 +14,7 @@ labels ={
   2: "virginica"
 }
 
-@app.route('/api',methods=['POST'])
+@app.route('/api',methods=['GET'])
 def predict():
     # Get the data from the POST request.
 	data = request.get_json(force=True)
