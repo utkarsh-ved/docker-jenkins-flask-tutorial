@@ -1,6 +1,6 @@
 import requests
 # Change the value of experience that you want to test
-url = 'http://localhost:5100/api'
+url = 'http://localhost:5200/api'
 feature = [[5.8, 4.0, 1.2, 0.2]]
 labels ={
   0: "setosa",
